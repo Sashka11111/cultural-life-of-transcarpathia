@@ -1,0 +1,15 @@
+.textfield{
+  -fx-background-color: transparent;
+  -fx-text-fill: #000000;
+  -fx-border-color:  #228B22;
+  -fx-border-width: 0px 0px .4px 0px;
+}
+.textfield:focused{
+  -fx-border-color:#000000;
+  -fx-border-width: 0px 0px 1px 0px;
+}
+.combo-box{
+  -fx-background-color: transparent;
+  -fx-border-color:  #228B22;
+  -fx-border-width: 0px 0px .4px 0px;
+}
