@@ -13,3 +13,12 @@
   -fx-border-color:  #228B22;
   -fx-border-width: 0px 0px .4px 0px;
 }
+.side-btn {
+  -fx-background-color: transparent;
+  -fx-border-radius: 5px; /* Округлені кути */
+  -fx-cursor: hand; /* Зміна курсора при наведенні */
+}
+.side-btn:hover {
+  -fx-background-color: rgba(255, 255, 255, 0.2); /* Прозорий колір фону при наведенні */
+  -fx-cursor: hand;
+}

@@ -4,40 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4939e828-a0c5-4d5d-aa8b-2acc8dcfce48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1c89a5491fbfda3fb050196d6a239f20200296e7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c10d1a79a49779ca25417e3ea788e61d0f5b2771" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/ca168ff54875aacdd9f715eed9834368bbd8f11c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebee350991b3dfa78097184e5cdfe1bcad95b8b9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/c/1c89a5491fbfda3fb050196d6a239f20200296e7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/1/c10d1a79a49779ca25417e3ea788e61d0f5b2771" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/a/ca168ff54875aacdd9f715eed9834368bbd8f11c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/b/ebee350991b3dfa78097184e5cdfe1bcad95b8b9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/persistence/connection/DatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/presentation/controller/AuthRegistrationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lopit/culturallifeoftranscarpathia/data/mountain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lopit/culturallifeoftranscarpathia/ddl.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lopit/culturallifeoftranscarpathia/design/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lopit/culturallifeoftranscarpathia/dml.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lopit/culturallifeoftranscarpathia/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lopit/culturallifeoftranscarpathia/view/auth_registration.fxml" afterDir="false" />
+    <list default="true" id="4939e828-a0c5-4d5d-aa8b-2acc8dcfce48" name="Changes" comment="created design for authorization/registration and added ddl.sql">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/presentation/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/presentation/controller/MainMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/add-user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/home.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/mainMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/867dd3ed-3208-4a0a-901a-78eba801e636.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/867dd3ed-3208-4a0a-901a-78eba801e636.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b2f8d9b7bfe871627ebcb92a9a3a049f8e7d5fd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c10d1a79a49779ca25417e3ea788e61d0f5b2771" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c10d1a79a49779ca25417e3ea788e61d0f5b2771" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/ca168ff54875aacdd9f715eed9834368bbd8f11c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d26abc3451641c8e9555ee9be762556bc35d3ad3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d26abc3451641c8e9555ee9be762556bc35d3ad3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebee350991b3dfa78097184e5cdfe1bcad95b8b9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/b/2b2f8d9b7bfe871627ebcb92a9a3a049f8e7d5fd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/a/ca168ff54875aacdd9f715eed9834368bbd8f11c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/b/ebee350991b3dfa78097184e5cdfe1bcad95b8b9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/presentation/controller/AuthRegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/presentation/controller/AuthRegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lopit/culturallifeoftranscarpathia/data/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lopit/culturallifeoftranscarpathia/data/mountain.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/mountain.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lopit/culturallifeoftranscarpathia/ddl.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ddl.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lopit/culturallifeoftranscarpathia/design/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/design/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lopit/culturallifeoftranscarpathia/dml.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dml.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lopit/culturallifeoftranscarpathia/view/auth_registration.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/auth_registration.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +43,26 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sashka11111&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="277ea558-5c0f-40a7-9263-8ad74049d0d1" />
+        <option name="url" value="https://github.com/Sashka11111/cultural-life-of-transcarpathia" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -72,12 +82,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/1/Desktop/cultural-life-of-transcarpathia/src/main/resources/com/lopit/culturallifeoftranscarpathia/data",
+    "last_opened_file_path": "C:/Users/1/Desktop/cultural-life-of-transcarpathia/src/main/resources/data",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -88,17 +100,19 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Desktop\cultural-life-of-transcarpathia\src\main\resources\data" />
+      <recent name="C:\Users\1\Desktop\cultural-life-of-transcarpathia\src\main\resources\com\lopit\culturallifeoftranscarpathia\view" />
       <recent name="C:\Users\1\Desktop\cultural-life-of-transcarpathia\src\main\resources\com\lopit\culturallifeoftranscarpathia\data" />
       <recent name="C:\Users\1\Desktop\cultural-life-of-transcarpathia\src\main\resources" />
       <recent name="C:\Users\1\Desktop\cultural-life-of-transcarpathia\src\main\resources\com\lopit\culturallifeoftranscarpathia\Data" />
-      <recent name="C:\Users\1\Desktop\cultural-life-of-transcarpathia\src\main\java\com\lopit\culturallifeoftranscarpathia" />
-      <recent name="C:\Users\1\Desktop\cultural-life-of-transcarpathia\src\main\resources\com\lopit\culturallifeoftranscarpathia" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Desktop\cultural-life-of-transcarpathia\src\main\resources" />
       <recent name="C:\Users\1\Desktop\cultural-life-of-transcarpathia\src\main\resources\com\lopit\culturallifeoftranscarpathia\view" />
       <recent name="C:\Users\1\Desktop\cultural-life-of-transcarpathia\src\main\resources\com\lopit\culturallifeoftranscarpathia" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lopit.culturallifeoftranscarpathia.presentation.controller" />
       <recent name="com.lopit.culturallifeoftranscarpathia.connection" />
       <recent name="com.lopit.culturallifeoftranscarpathia" />
     </key>
@@ -117,7 +131,18 @@
       <workItem from="1719227068464" duration="1757000" />
       <workItem from="1719233478026" duration="1748000" />
       <workItem from="1719236475777" duration="828000" />
-      <workItem from="1719250914232" duration="2460000" />
+      <workItem from="1719250914232" duration="4050000" />
+      <workItem from="1719293545927" duration="452000" />
+      <workItem from="1719301771937" duration="355000" />
+      <workItem from="1719310187676" duration="1187000" />
+      <workItem from="1719314461220" duration="3290000" />
+      <workItem from="1719326993464" duration="1208000" />
+      <workItem from="1719380849363" duration="694000" />
+      <workItem from="1719396029163" duration="1028000" />
+      <workItem from="1719401648455" duration="2375000" />
+      <workItem from="1719406517615" duration="775000" />
+      <workItem from="1719413515462" duration="63000" />
+      <workItem from="1719417806766" duration="5767000" />
     </task>
     <servers />
   </component>

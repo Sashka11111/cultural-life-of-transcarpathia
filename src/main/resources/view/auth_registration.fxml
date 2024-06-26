@@ -65,10 +65,9 @@
                   <Font size="24.0" />
                </font>
             </Label>
-            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="93.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../data/mountain.png" />
-               </image>
+            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="93.0" layoutY="135.0"
+              pickOnBounds="true" preserveRatio="true">
+               <Image url="@../data/mountain.png"/>
             </ImageView>
          </children>
       </AnchorPane>

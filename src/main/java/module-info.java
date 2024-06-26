@@ -4,6 +4,7 @@ module com.lopit.culturallifeoftranscarpathia {
   requires atlantafx.base;
   requires com.zaxxer.hikari;
   requires java.sql;
+  requires com.sothawo.mapjfx;
 
   opens com.lopit.culturallifeoftranscarpathia to javafx.fxml;
   exports com.lopit.culturallifeoftranscarpathia;

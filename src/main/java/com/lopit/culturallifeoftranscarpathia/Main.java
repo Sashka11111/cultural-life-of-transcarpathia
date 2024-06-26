@@ -2,6 +2,7 @@ package com.lopit.culturallifeoftranscarpathia;
 
 import atlantafx.base.theme.PrimerLight;
 import com.lopit.culturallifeoftranscarpathia.persistence.connection.DatabaseConnection;
+import java.util.Objects;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -17,11 +18,12 @@ public class Main extends Application {
   @Override
   public void start(Stage primaryStage) throws IOException {
     Application.setUserAgentStylesheet(new PrimerLight().getUserAgentStylesheet());
-    primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("data/icon.png")));
-    FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("view/auth_registration.fxml"));
+    primaryStage.getIcons().add(new Image(
+        Objects.requireNonNull(getClass().getResourceAsStream("/data/icon.png"))));
+    FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("/view/mainMenu.fxml"));
     Parent root = fxmlLoader.load();
     primaryStage.setTitle("Культурне життя Закарпаття");
-    primaryStage.setScene(new Scene(root, 600, 400));
+    primaryStage.setScene(new Scene(root, 1100, 700));
     primaryStage.setResizable(false);
     primaryStage.show();
   }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="700.0" prefWidth="922.0" style="-fx-background-color: WHITE;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lopit.culturallifeoftranscarpathia.presentation.controller.HomeController">
+  <children>
+   <Label layoutX="23.0" layoutY="22.0" text="Головна" />
+      <TableView layoutX="14.0" layoutY="81.0" prefHeight="303.0" prefWidth="901.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="6.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+</children>
+</AnchorPane>

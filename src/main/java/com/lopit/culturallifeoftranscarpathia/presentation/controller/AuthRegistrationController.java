@@ -30,9 +30,6 @@ public class AuthRegistrationController {
   private Button btn_signUp;
 
   @FXML
-  private ImageView imageView;
-
-  @FXML
   private AnchorPane loginForm;
 
   @FXML
@@ -80,6 +77,5 @@ public class AuthRegistrationController {
       slider.play();
     }
   }
-
 
 }
