@@ -19,3 +19,11 @@ j
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+”
+dsrc/main/java/com/lopit/culturallifeoftranscarpathia/presentation/controller/CategoryController.java,9\c\9c7fe6c70e08260f30d2a34c32abceeab288a43f
+’
+bsrc/main/java/com/lopit/culturallifeoftranscarpathia/presentation/controller/EventsController.java,1\5\15e6b163b48bf11cc41a91551188f273b4f03405
+“
+csrc/main/java/com/lopit/culturallifeoftranscarpathia/presentation/controller/ProfileController.java,a\1\a157c39e7b6c36cab98a404a405ca9a655f0ec0b
+’
+bsrc/main/java/com/lopit/culturallifeoftranscarpathia/presentation/controller/VenuesController.java,a\1\a157e14f3e0fba3b4f47593d458b4ce27083c4ca
