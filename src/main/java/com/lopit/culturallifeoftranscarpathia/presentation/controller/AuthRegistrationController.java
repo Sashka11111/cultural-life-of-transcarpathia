@@ -8,7 +8,6 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
-import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.util.Duration;
 
@@ -27,7 +26,7 @@ public class AuthRegistrationController {
   private Button btnSideCreate;
 
   @FXML
-  private Button btn_signUp;
+  private Button btnSignUp;
 
   @FXML
   private AnchorPane loginForm;

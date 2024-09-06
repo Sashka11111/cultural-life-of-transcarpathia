@@ -1,12 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.web.WebView?>
 
 <AnchorPane prefHeight="700.0" prefWidth="922.0" style="-fx-background-color: WHITE;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lopit.culturallifeoftranscarpathia.presentation.controller.EventsController">
   <children>
-    <Label layoutX="23.0" layoutY="22.0" text="Події" />
+    <Label layoutX="23.0" layoutY="22.0" text="Календар подій" />
+
+    <!-- Фільтр за датою -->
+    <Label layoutX="23.0" layoutY="60.0" text="Фільтр за датою:" />
+    <DatePicker fx:id="dateFilter" layoutX="120.0" layoutY="55.0" />
+
+    <!-- Фільтр за категорією -->
+    <Label layoutX="300.0" layoutY="60.0" text="Фільтр за категорією:" />
+    <ComboBox fx:id="categoryFilter" layoutX="420.0" layoutY="55.0" prefWidth="150.0" />
+
+    <!-- Кнопка для застосування фільтрів -->
+    <Button layoutX="600.0" layoutY="55.0" text="Застосувати фільтри" onAction="#applyFilters" />
+
+    <!-- Таблиця подій -->
+    <TableView fx:id="eventsTable" layoutX="23.0" layoutY="100.0" prefHeight="400.0" prefWidth="850.0">
+      <columns>
+        <TableColumn fx:id="dateColumn" text="Дата" prefWidth="100.0" />
+        <TableColumn fx:id="categoryColumn" text="Категорія" prefWidth="150.0" />
+        <TableColumn fx:id="nameColumn" text="Назва події" prefWidth="250.0" />
+        <TableColumn fx:id="locationColumn" text="Місце проведення" prefWidth="150.0" />
+        <TableColumn fx:id="actionsColumn" text="Дії" prefWidth="150.0" />
+      </columns>
+    </TableView>
+
+    <!-- Карта місць проведення заходів -->
+    <Label layoutX="23.0" layoutY="520.0" text="Карта місць проведення заходів:" />
+    <WebView fx:id="mapView" layoutX="23.0" layoutY="550.0" prefHeight="130.0" prefWidth="850.0" />
   </children>
 </AnchorPane>

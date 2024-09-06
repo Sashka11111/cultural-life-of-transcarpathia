@@ -10,67 +10,45 @@
 
 <AnchorPane prefHeight="700.0" prefWidth="1100.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lopit.culturallifeoftranscarpathia.presentation.controller.MainMenuController">
    <children>
-      <AnchorPane fx:id="sidebar" layoutY="50.0" prefHeight="655.0" prefWidth="181.0" style="-fx-background-color: #228B22;">
+      <AnchorPane prefHeight="700.0" prefWidth="181.0" style="-fx-background-color: #425c5a;">
          <children>
-            <Line endX="78.40000915527344" endY="-1.0" layoutX="82.0" layoutY="168.0" startX="-67.0" startY="-1" />
-            <Button fx:id="btnEvents" layoutX="-2.0" layoutY="272.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="178.0" styleClass="side-btn" stylesheets="@../design/style.css" text="Події">
+            <Line endX="78.40000915527344" endY="-1.0" layoutX="82.0" layoutY="168.0" startX="-67.0" startY="-1" stroke="#c99c33" />
+            <Button fx:id="btnEvents" layoutX="-2.0" layoutY="272.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="178.0" styleClass="side-btn" stylesheets="@../design/style.css" text="Події" textFill="WHITE">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button fx:id="btnVenues" layoutX="2.0" layoutY="330.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="178.0" styleClass="side-btn" stylesheets="@../design/style.css" text="Місця проведення">
+            <Button fx:id="btnVenues" layoutX="2.0" layoutY="330.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="178.0" styleClass="side-btn" stylesheets="@../design/style.css" text="Місця проведення" textFill="WHITE">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button fx:id="btnCategory" layoutY="388.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="178.0" styleClass="side-btn" stylesheets="@../design/style.css" text="Категорії">
+            <Button fx:id="btnCategory" layoutY="388.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="178.0" styleClass="side-btn" stylesheets="@../design/style.css" text="Категорії" textFill="WHITE">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button fx:id="btnProfile" layoutX="-2.0" layoutY="446.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="178.0" styleClass="side-btn" stylesheets="@../design/style.css" text="Мій профіль">
+            <Button fx:id="btnProfile" layoutX="-2.0" layoutY="446.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="178.0" styleClass="side-btn" stylesheets="@../design/style.css" text="Мій профіль" textFill="WHITE">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button fx:id="btnHome" layoutX="-2.0" layoutY="214.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="178.0" styleClass="side-btn" stylesheets="@../design/style.css" text="Головна">
+            <Button fx:id="btnHome" layoutX="-2.0" layoutY="214.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="178.0" styleClass="side-btn" stylesheets="@../design/style.css" text="Головна" textFill="WHITE">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <ImageView fitHeight="84.0" fitWidth="138.0" layoutX="49.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="105.0" fitWidth="146.0" layoutX="14.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../data/mountain.png" />
+                  <Image url="@../data/ukraine-map.png" />
                </image>
             </ImageView>
-            <StackPane fx:id="stackPane" layoutX="0.0" layoutY="214.0" prefHeight="58.0" prefWidth="9.0" style="-fx-background-color: #006400;" />
+            <StackPane fx:id="stackPane" layoutX="4.0" layoutY="214.0" prefHeight="58.0" prefWidth="3.0" style="-fx-background-color: #c99c33;" />
          </children>
       </AnchorPane>
-      <AnchorPane prefHeight="50.0" prefWidth="1100.0" style="-fx-background-color: #A9A9A9;">
+      <AnchorPane layoutX="182.0" prefHeight="700.0" prefWidth="918.0">
          <children>
-            <Button fx:id="menuButton" layoutY="4.0" mnemonicParsing="false" onAction="#toggleSidebar" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: transparent;" styleClass="side-btn" stylesheets="@../design/style.css" AnchorPane.leftAnchor="0.0">
-               <graphic>
-                  <ImageView fitHeight="33.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../data/menu.png" />
-                     </image>
-                  </ImageView>
-               </graphic>
-            </Button>
-            <Button fx:id="addUser" layoutX="1036.0" layoutY="4.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: transparent;" styleClass="side-btn" stylesheets="@../design/style.css">
-               <graphic>
-                  <ImageView fitHeight="33.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../data/add-user.png" />
-                     </image>
-                  </ImageView>
-               </graphic>
-            </Button>
-         </children>
-      </AnchorPane>
-      <AnchorPane fx:id="contentContainer" layoutX="178.0" layoutY="50.4" prefHeight="655.0" prefWidth="922.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="178.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
-         <children>
-            <StackPane fx:id="contentArea" prefHeight="655.0" prefWidth="922.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            <StackPane fx:id="contentArea" prefHeight="700.0" prefWidth="918.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
          </children>
       </AnchorPane>
    </children>

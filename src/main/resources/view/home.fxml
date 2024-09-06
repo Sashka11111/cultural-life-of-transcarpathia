@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TableColumn?>
-<?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="700.0" prefWidth="922.0" style="-fx-background-color: WHITE;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lopit.culturallifeoftranscarpathia.presentation.controller.HomeController">
+<?import javafx.scene.control.TextArea?>
+<AnchorPane prefHeight="700.0" prefWidth="918.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lopit.culturallifeoftranscarpathia.presentation.controller.HomeController">
   <children>
-    <Label layoutX="23.0" layoutY="22.0" text="Головна" />
+    <TextArea layoutX="23.0" layoutY="22.0" prefHeight="650.0" prefWidth="850.0" fx:id="historyTextArea" wrapText="true" editable="false"/>
   </children>
 </AnchorPane>

@@ -5,6 +5,7 @@ module com.lopit.culturallifeoftranscarpathia {
   requires com.zaxxer.hikari;
   requires java.sql;
   requires com.sothawo.mapjfx;
+  requires javafx.web;
 
   opens com.lopit.culturallifeoftranscarpathia to javafx.fxml;
   exports com.lopit.culturallifeoftranscarpathia;

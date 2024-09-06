@@ -77,7 +77,11 @@
       <version>2.0.13</version>
       <scope>compile</scope>
     </dependency>
-
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-web</artifactId>
+      <version>22</version>
+    </dependency>
     <dependency>
       <groupId>com.sothawo</groupId>
       <artifactId>mapjfx</artifactId>

@@ -4,20 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4939e828-a0c5-4d5d-aa8b-2acc8dcfce48" name="Changes" comment="added a pull-down menu">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/presentation/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/presentation/controller/EventsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/presentation/controller/ProfileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/presentation/controller/VenuesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/category.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/events.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/profile.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/venues.fxml" afterDir="false" />
+    <list default="true" id="4939e828-a0c5-4d5d-aa8b-2acc8dcfce48" name="Changes" comment="added transitions between menu items">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/domain/exception/EntityNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/domain/security/AuthenticatedUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/domain/security/PasswordHashing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/domain/setting/ControllerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/domain/setting/LanguageManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/domain/setting/LanguageUpdatable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/domain/setting/ThemeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/domain/validation/CategoryValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/domain/validation/MedicinesValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/domain/validation/UserValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/persistence/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/persistence/entity/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/persistence/entity/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/persistence/entity/Medicine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/persistence/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/persistence/entity/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/persistence/repository/contract/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/persistence/repository/contract/MedicinesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/persistence/repository/contract/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/persistence/repository/impl/CategoryRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/persistence/repository/impl/MedicinesRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/persistence/repository/impl/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/ukraine-map.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c10d1a79a49779ca25417e3ea788e61d0f5b2771" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c10d1a79a49779ca25417e3ea788e61d0f5b2771" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/presentation/controller/AuthRegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/presentation/controller/AuthRegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/presentation/controller/EventsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/presentation/controller/EventsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/presentation/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/presentation/controller/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/presentation/controller/MainMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lopit/culturallifeoftranscarpathia/presentation/controller/MainMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mountain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/auth_registration.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/auth_registration.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/events.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/events.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/view/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/home.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/view/mainMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/mainMenu.fxml" afterDir="false" />
     </list>
@@ -32,6 +55,7 @@
         <option value="CSS File" />
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -71,14 +95,17 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/1/Desktop/cultural-life-of-transcarpathia/src/main/resources/view",
+    "last_opened_file_path": "C:/Users/1/Desktop/cultural-life-of-transcarpathia/src/main/java/com/lopit/culturallifeoftranscarpathia/persistence",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -89,13 +116,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\1\Desktop\cultural-life-of-transcarpathia\src\main\resources\view" />
+      <recent name="C:\Users\1\Desktop\cultural-life-of-transcarpathia\src\main\java\com\lopit\culturallifeoftranscarpathia\persistence" />
+      <recent name="C:\Users\1\Desktop\cultural-life-of-transcarpathia\src\main\java\com\lopit\culturallifeoftranscarpathia\domain" />
       <recent name="C:\Users\1\Desktop\cultural-life-of-transcarpathia\src\main\resources\data" />
-      <recent name="C:\Users\1\Desktop\cultural-life-of-transcarpathia\src\main\resources\com\lopit\culturallifeoftranscarpathia\view" />
-      <recent name="C:\Users\1\Desktop\cultural-life-of-transcarpathia\src\main\resources\com\lopit\culturallifeoftranscarpathia\data" />
       <recent name="C:\Users\1\Desktop\cultural-life-of-transcarpathia\src\main\resources" />
+      <recent name="C:\Users\1\Desktop\cultural-life-of-transcarpathia\src\main\resources\view" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Desktop\cultural-life-of-transcarpathia\src\main\resources\data" />
       <recent name="C:\Users\1\Desktop\cultural-life-of-transcarpathia\src\main\resources" />
       <recent name="C:\Users\1\Desktop\cultural-life-of-transcarpathia\src\main\resources\com\lopit\culturallifeoftranscarpathia\view" />
       <recent name="C:\Users\1\Desktop\cultural-life-of-transcarpathia\src\main\resources\com\lopit\culturallifeoftranscarpathia" />
@@ -134,6 +162,24 @@
       <workItem from="1719417806766" duration="6202000" />
       <workItem from="1719473037938" duration="2761000" />
       <workItem from="1719506193979" duration="3197000" />
+      <workItem from="1719509443130" duration="84000" />
+      <workItem from="1719509626603" duration="58000" />
+      <workItem from="1719685826303" duration="321000" />
+      <workItem from="1719763384009" duration="1179000" />
+      <workItem from="1719766129178" duration="201000" />
+      <workItem from="1719822951386" duration="17000" />
+      <workItem from="1719823210655" duration="11000" />
+      <workItem from="1719831495681" duration="217000" />
+      <workItem from="1719837866723" duration="30000" />
+      <workItem from="1719840130027" duration="7000" />
+      <workItem from="1719840153463" duration="18000" />
+      <workItem from="1719897051698" duration="493000" />
+      <workItem from="1719901771594" duration="4000" />
+      <workItem from="1724484761082" duration="2344000" />
+      <workItem from="1724563256662" duration="1341000" />
+      <workItem from="1724925498119" duration="1575000" />
+      <workItem from="1725176614266" duration="1972000" />
+      <workItem from="1725640337052" duration="320000" />
     </task>
     <task id="LOCAL-00001" summary="added a pull-down menu">
       <option name="closed" value="true" />
@@ -143,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719429853485</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added transitions between menu items">
+      <option name="closed" value="true" />
+      <created>1719509517946</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719509517946</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +205,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added a pull-down menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a pull-down menu" />
+    <MESSAGE value="added transitions between menu items" />
+    <option name="LAST_COMMIT_MESSAGE" value="added transitions between menu items" />
   </component>
 </project>

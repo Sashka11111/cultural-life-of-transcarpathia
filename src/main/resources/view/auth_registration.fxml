@@ -31,7 +31,7 @@
          <children>
             <TextField fx:id="su_username" layoutX="63.0" layoutY="131.0" prefHeight="35.0" prefWidth="174.0" promptText="Логін" styleClass="textfield" stylesheets="@../design/style.css" />
             <PasswordField fx:id="su_password" layoutX="63.0" layoutY="182.0" prefHeight="35.0" prefWidth="174.0" promptText="Пароль" styleClass="textfield" stylesheets="@../design/style.css" />
-            <Button fx:id="btn_signUp" layoutX="62.0" layoutY="300.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="174.0" style="-fx-background-color: #228B22;" text="Зареєструватися" textFill="WHITE">
+            <Button fx:id="btnSignUp" layoutX="62.0" layoutY="300.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="174.0" style="-fx-background-color: #228B22;" text="Зареєструватися" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font></Button>

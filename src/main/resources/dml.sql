@@ -1,35 +1,34 @@
 -- Вставка користувачів
-INSERT INTO users (login, password) VALUES
-        ('user1', 'password1'),
-        ('user2', 'password2'),
-        ('user3', 'password3');
-
+INSERT INTO Users (username, password, role) VALUES
+        ('Admin', '3b612c75a7b5048a435fb6ec81e52ff92d6d795a8b5a9c17070f6a63c97a53b2', 'ADMIN'),
+        ('User1', 'a61a8adf60038792a2cb88e670b20540a9d6c2ca204ab754fc768950e79e7d36', 'USER'),
+        ('User2', 'a61a8adf60038792a2cb88e670b20540a9d6c2ca204ab754fc768950e79e7d36', 'USER');
 -- Вставка місць проведення подій
-INSERT INTO venues (name, address) VALUES
-        ('Місце 1', 'Адреса 1'),
-        ('Місце 2', 'Адреса 2'),
-        ('Місце 3', 'Адреса 3');
+INSERT INTO Venues (name, address) VALUES
+    ('Місце 1', 'Адреса 1'),
+    ('Місце 2', 'Адреса 2'),
+    ('Місце 3', 'Адреса 3');
 
 -- Вставка категорій подій
-INSERT INTO categories (name) VALUES
-        ('Концерт'),
-        ('Конференція'),
+INSERT INTO Categories (category_name) VALUES
+    ('Концерт'),
+    ('Конференція'),
     ('Виставка');
 
 -- Вставка подій
-INSERT INTO events (title, description, date, location, organizer_id) VALUES
+INSERT INTO Events (title, description, date, location, organizer_id) VALUES
     ('Концерт "Сучасна музика"', 'Концерт із виконанням сучасних композицій', '2024-07-15 19:00:00', 'Місце 1', 1),
     ('Конференція "Новітні технології"', 'Дискусія про впровадження новітніх технологій', '2024-07-20 10:00:00', 'Місце 2', 2),
     ('Виставка "Сучасне мистецтво"', 'Виставка робіт сучасних українських художників', '2024-07-25 11:00:00', 'Місце 3', 3);
 
 -- Вставка зв'язків між подіями та місцями проведення
-INSERT INTO event_venues (event_id, venue_id) VALUES
+INSERT INTO Event_Venues (event_id, venue_id) VALUES
     (1, 1), -- Подія 1 в Місце 1
     (2, 2), -- Подія 2 в Місце 2
     (3, 3); -- Подія 3 в Місце 3
 
 -- Вставка зв'язків між подіями та категоріями
-INSERT INTO event_categories (event_id, category_id) VALUES
+INSERT INTO Event_Categories (event_id, category_id) VALUES
     (1, 1), -- Подія 1 - Концерт
     (2, 2), -- Подія 2 - Конференція
     (3, 3); -- Подія 3 - Виставка
